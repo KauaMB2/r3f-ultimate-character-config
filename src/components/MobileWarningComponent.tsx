@@ -11,14 +11,13 @@ export function MobileWarning({ onContinue }: { onContinue: () => {} }) {
         </h2>
         
         <p className="text-gray-300 leading-relaxed mb-4">
-          Este software utiliza <strong className="text-white">renderização e animações 3D</strong> e 
-          pode ser muito pesado para dispositivos móveis, podendo causar travamentos ou 
-          lentidão.
+          Este software utiliza <strong className="text-white">renderização e animações 3D</strong>. Portanto, a sua experiência pode ser afetada
+          por travamentos caso utilize celular ou tablet.
         </p>
         
         <p className="text-gray-300 leading-relaxed mb-8">
           <strong className="text-white">Recomendo fortemente</strong> que você acesse 
-          este aplicativo em um <strong className="text-white">notebook ou computador desktop</strong> para 
+          este aplicativo em um <strong className="text-white">notebook ou computador</strong> para 
           ter a melhor experiência possível.
         </p>
         
